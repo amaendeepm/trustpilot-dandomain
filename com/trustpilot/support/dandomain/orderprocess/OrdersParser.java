@@ -187,7 +187,7 @@ public class OrdersParser {
 		while(itr.hasNext()) {
 			Product p = itr.next();
 			JSONObject prod = new JSONObject();
-			prod.put("productUrl", "http://None"); //Invalid- As agreed with KiteDanmark
+			prod.put("productUrl", "http://None"); //Invalid- As agreed with KD
 			prod.put("name",p.getPname());
 			prod.put("sku",p.getSku());
 			prodString.append(prod.toString()+",");
